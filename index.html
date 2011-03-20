@@ -1,1 +1,21 @@
 Welcome to everpeace's personal maven repository
+
+To colaborate my artifacts, add repository entry in pom:
+
+<pre>
+  <project>
+  ...
+    <repositories>
+    ...
+      <repository>
+        <id>org.everpeace.repository</id>
+	<url>http://everpeace.github.com/maven-repository/release</url>
+      <repository>
+      <repository>
+        <id>org.everpeace.repository.snapshot</id>
+	<url>http://everpeace.github.com/maven-repository/snapshot</url>
+      <repository>
+    <repositories>
+  ...
+  <project>
+</pre>
