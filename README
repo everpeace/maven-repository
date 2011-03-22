@@ -1,0 +1,9 @@
+This is everpeace's personal maven repository.
+
+These snapshot artifacts are now on public.
+
+ * org.everpeace.test.easymock-junit4-rule:
+   This module provides a JUnit4's @Rule which injects EasyMock objects to a test case object automatically by annotation. see https://github.com/everpeace/easymock-junit4-rule
+   
+ * org.everpeace.search.bk-tree:
+   an implementation implementation for BK-tree, which provides effective search in metric space. see https://github.com/everpeace/bk-tree
