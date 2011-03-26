@@ -2,8 +2,12 @@ This is everpeace's personal maven repository.
 
 These snapshot artifacts are now on public.
 
- * org.everpeace.test.easymock-junit4-rule:
+ * org.everpeace.test.easymock-junit4-rule:1.0-SNAPSHOT
    This module provides a JUnit4's @Rule which injects EasyMock objects to a test case object automatically by annotation. see https://github.com/everpeace/easymock-junit4-rule
    
- * org.everpeace.search.bk-tree:
+ * org.everpeace.search.bk-tree:1.0-SNAPSHOT
    an implementation implementation for BK-tree, which provides effective search in metric space. see https://github.com/everpeace/bk-tree
+
+　* org.everpeace.util.field-type-resolver:1.0-SNAPSHOT
+   This module provides a utility which resolve an actual type(returns Class<?> object) of a given field in a given class hierarchy.  see https://github.com/everpeace/field-type-resolver
+
